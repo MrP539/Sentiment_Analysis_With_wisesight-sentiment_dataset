@@ -1,0 +1,41 @@
+{
+  "best_metric": 0.7275374376039934,
+  "best_model_checkpoint": "models_wongnai/wangchanberta-base-att-spm-uncased_wongnai\\checkpoint-1352",
+  "epoch": 1.0,
+  "global_step": 1352,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.3698224852071006,
+      "learning_rate": 2.1002465078060807e-05,
+      "loss": 0.9137301635742188,
+      "step": 500
+    },
+    {
+      "epoch": 0.7396449704142012,
+      "learning_rate": 8.677074774034512e-06,
+      "loss": 0.7080751342773437,
+      "step": 1000
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.7275374376039934,
+      "eval_f1_macro": 0.5897056020423859,
+      "eval_f1_micro": 0.7275374376039934,
+      "eval_loss": 0.6339820027351379,
+      "eval_nb_samples": 2404,
+      "eval_precision_macro": 0.6261547636773411,
+      "eval_precision_micro": 0.7275374376039934,
+      "eval_recall_macro": 0.568661668152739,
+      "eval_recall_micro": 0.7275374376039934,
+      "step": 1352
+    }
+  ],
+  "max_steps": 1352,
+  "num_train_epochs": 1,
+  "total_flos": 2010140373266592,
+  "trial_name": null,
+  "trial_params": null
+}
